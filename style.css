@@ -12,6 +12,10 @@ h3 {
     list-style-type: none;
     
 }
+.refresh .cool , .cool2{
+    color: white;
+    margin-top: 25px;
+}
  .refresh .content{
         width: 960px;
         margin: auto;
