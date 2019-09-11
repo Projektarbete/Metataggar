@@ -4,21 +4,21 @@ function randomBackground() {
 
     switch (randomNumber) {
         case 1:
-            color = "#030";
+            color = "#FF9AA2";
             break;
         case 2:
-            color = "#300";
+            color = "#FFB7B2";
             break;
 
         case 3:
-            color = "#003";
+            color = "#FFDAC1";
             break;
         case 4:
-            color = "#555";
+            color = "#E2F0CB";
             break;
 
         case 5:
-            color = "#550";
+            color = "#B5EAD7";
             break;
 
     }
