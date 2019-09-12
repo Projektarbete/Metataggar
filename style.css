@@ -4,9 +4,11 @@
 h1 {
     font-size: 40px;
     text-align: center;
+    color: black;
 }
-h3 {
+h2 {
     font-size: 20px;
+    color: black;
 }
 .home .meta-http{
     list-style-type: none;
