@@ -10,8 +10,11 @@ h2 {
     font-size: 20px;
     color: black;
 }
-.home .card{
+.home .card-header{
     color: black;
+}
+.home .jumbotron{
+    background-color:#dcffe6;
 }
 
 .refresh .cool , .cool2{
