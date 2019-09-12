@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>OpenGraph2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body class="seo">
+<body class="og">
     <!-- Navbar from Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Start</a>
@@ -44,9 +45,48 @@
     </nav>
     <!-- Ovan, Navbar from Bootstrap -->
 
-    <h1 class="hej" onmouseover="mouse()">Sökmotoroptimering</h1>
+    <h1 class="hej" onmouseover="mouse()"></h1>OG-taggar</h1>
+    <h2>Artikelnamn</h2>
+    <p>og:title , og:type, og:url, og:image</p>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="images/ogimage.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vi vill visa en artikel-länk med metataggen OG</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.<a href="#" class="fa fa-facebook"></a>
+                    <div class="fb-share-button" data-href="https://nackademin.se" data-layout="button_count"
+                        data-size="small"><a target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                            class="fb-xfbml-parse-ignore">Dela</a></div>
+                </p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/ogimage.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vi vill visa en artikel-länk utan metataggen OG</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.<a
+                        href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="fb-share-button" data-href="https://nackademin.se" data-layout="button_count"
+                        data-size="small"><a target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                            class="fb-xfbml-parse-ignore">Dela</a></div>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
 
     <footer>&#128105 Made by Emmy & Matilda &#128105</footer>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v4.0"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
