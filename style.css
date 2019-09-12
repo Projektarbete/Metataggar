@@ -34,3 +34,12 @@ footer{
     font-size: 15px;
     margin-top: 50px;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
