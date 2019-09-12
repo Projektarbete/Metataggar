@@ -10,10 +10,10 @@ h2 {
     font-size: 20px;
     color: black;
 }
-.home .meta-http{
-    list-style-type: none;
-    
+.home .card{
+    color: black;
 }
+
 .refresh .cool , .cool2{
     color: white;
     margin-top: 25px;
@@ -24,10 +24,10 @@ h2 {
  }
 .doggy{
     display: block;
-    max-width: 40%;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
+    max-width:40%
 }
 footer{
     text-align: center;
