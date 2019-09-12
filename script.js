@@ -9,14 +9,12 @@ function randomBackground() {
         case 2:
             color = "#FFB7B2";
             break;
-
         case 3:
             color = "#FFDAC1";
             break;
         case 4:
             color = "#E2F0CB";
             break;
-
         case 5:
             color = "#B5EAD7";
             break;
