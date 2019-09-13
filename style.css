@@ -25,7 +25,12 @@ h2 {
 .og {
     background-color: bisque;
 }
-.refresh .cool , .cool2{
+.refresh .cool{
+    color: white;
+    margin-top: 25px;
+    font-size: 6vw;
+}
+.refresh .cool2{
     color: white;
     margin-top: 25px;
 }
@@ -43,7 +48,7 @@ h2 {
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
-    max-width:40%
+    max-width: 40%;
 }
 footer{
     text-align: center;
