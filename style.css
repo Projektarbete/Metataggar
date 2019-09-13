@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     color: black;
 }
@@ -12,6 +12,9 @@ h2 {
 }
 .home{
     background-color: lightblue;
+}
+.home .btn{
+    color:black;
 }
 .home .card-header{
     color: black;
