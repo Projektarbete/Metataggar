@@ -11,19 +11,29 @@ h2 {
     color: black;
 }
 .home{
-    background-color: lightblue;
+    background-color: #b6cae9;
 }
 .home .btn{
     color:black;
 }
 .home .card-header{
     color: black;
+    background-color: #b6cae9;
 }
 .home .jumbotron{
     background-color:#dcffe6;
 }
+.home .charset{
+    margin: 5px 5px;
+}
+.charset .li{
+    margin: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .og {
-    background-color: bisque;
+    background-color: #b6cae9;
+    text-align: center;
 }
 .refresh .cool{
     color: white;
