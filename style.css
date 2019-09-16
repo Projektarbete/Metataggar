@@ -49,17 +49,15 @@ h2 {
     font-size: 18px;
     text-align:center;
 }
- .refresh .content{
-        width: 960px;
-        margin: auto;
- }
-.doggy{
+
+ /* .doggy{
     display: block;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 40%;
-}
+    max-width: 40%; 
+} 
+*/
 footer{
     text-align: center;
     font-size: 15px;
@@ -74,3 +72,17 @@ footer{
     text-decoration: none;
     border-radius: 50%;
   }
+
+  .doggy2{
+    display: none;
+ }
+ 
+ @media only screen and (max-width: 500px){ 
+    .doggy1{
+      display: none;
+    }
+ 
+    .doggy2{
+      display: block;
+    }
+ }
