@@ -50,14 +50,20 @@ h2 {
     text-align:center;
 }
 
- /* .doggy{
+  .doggy{
     display: block;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
     max-width: 40%; 
 } 
-*/
+.doggy2{
+    display: block;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
 footer{
     text-align: center;
     font-size: 15px;
@@ -77,7 +83,7 @@ footer{
     display: none;
  }
  
- @media only screen and (max-width: 500px){ 
+ @media only screen and (max-width: 700px){ 
     .doggy1{
       display: none;
     }
