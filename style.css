@@ -70,7 +70,11 @@ footer{
     margin-top: 50px;
 }
 
-
+.img-debugger {
+    border-style: solid;
+    width: 60%;
+    height: 50%;
+}
 
   .doggy2{
     display: none;
