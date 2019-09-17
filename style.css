@@ -131,10 +131,11 @@ footer{
  TILL MATILDA CSS
  .hej{
     color: black;
+
+
 }
-
+/*
 TILL MATILDA JS
-
 function mouse(){
     let h1Hej = document.getElementById("hej");
     h1Hej.style.color = "yellow";
@@ -143,3 +144,19 @@ function changeBack(){
     let h1Hej = document.getElementById("hej");
     h1Hej.style.color = "black";
 }
+
+TILL MATILDA html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.style">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 class="hej" id="hej" onmouseover="mouse()">Ändra färg</h1>
+</body>
+</html>
+*/
