@@ -27,6 +27,9 @@ h2 {
 .home .jumbotron{
     background-color:#dcffe6;
 }
+.lead{
+    text-align: center;
+}
 .phone{
     display: block;
     justify-content: center;
