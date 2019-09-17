@@ -10,6 +10,12 @@ h2 {
     font-size: 20px;
     color: black;
 }
+.accordion{
+    justify-content: center;
+    margin: 50px 50px;
+    max-width: 50%;
+    align-items: center;
+}
 .home{
     background-color: #b6cae9;
 }
@@ -22,6 +28,15 @@ h2 {
 }
 .home .jumbotron{
     background-color:#dcffe6;
+}
+.phone{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    border: solid 2px black;
+    border-radius: 5%;
 }
 .home .charset{
     margin: 5px 5px;
