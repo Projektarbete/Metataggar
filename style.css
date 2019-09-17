@@ -70,21 +70,14 @@ footer{
     margin-top: 50px;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+
 
   .doggy2{
     display: none;
  }
  
  @media only screen and (max-width: 700px){ 
-    .doggy1{
+    .doggy{
       display: none;
     }
  
