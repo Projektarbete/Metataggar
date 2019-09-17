@@ -35,6 +35,11 @@ h2 {
     background-color: #b6cae9;
     text-align: center;
 }
+
+.ogTypes{
+    list-style-type: none;
+    text-align: left;
+}
 .refresh .cool{
     color: white;
     margin-top: 25px;
