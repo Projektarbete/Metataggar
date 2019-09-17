@@ -43,7 +43,6 @@ h2 {
 .refresh .cool{
     color: white;
     margin-top: 25px;
-    font-size: 6vw;
 }
 .refresh .cool2{
     color: white;
@@ -81,7 +80,6 @@ footer{
     height: 50%;
 }
 
-  .doggy2{
 .doggy2{
     display: none;
  }
