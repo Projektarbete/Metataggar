@@ -129,3 +129,20 @@ footer{
       display: block;
     }
  }
+
+
+ TILL MATILDA CSS
+ .hej{
+    color: black;
+}
+
+TILL MATILDA JS
+
+function mouse(){
+    let h1Hej = document.getElementById("hej");
+    h1Hej.style.color = "yellow";
+}
+function changeBack(){
+    let h1Hej = document.getElementById("hej");
+    h1Hej.style.color = "black";
+}
