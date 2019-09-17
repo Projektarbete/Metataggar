@@ -9,12 +9,10 @@ h1 {
 h2 {
     font-size: 20px;
     color: black;
+    text-align: center;
 }
-.accordion{
-    justify-content: center;
-    margin: 50px 50px;
-    max-width: 50%;
-    align-items: center;
+.card{
+    border: 2px solid;
 }
 .home{
     background-color: #b6cae9;
@@ -74,7 +72,6 @@ h2 {
     background-color: #b6cae9;
     text-align: center;
 }
-
 .ogTypes{
     list-style-type: none;
     text-align: left;
@@ -92,8 +89,7 @@ h2 {
     font-size: 18px;
     text-align:center;
 }
-
-  .doggy{
+.doggy{
     display: block;
     border-radius: 15%;
     margin-left: auto;
@@ -112,13 +108,11 @@ footer{
     font-size: 15px;
     margin-top: 50px;
 }
-
 .img-artiklar {
     border-style: solid;
     width: 60%;
     height: 50%;
 }
-
 .doggy2{
     display: none;
  }
