@@ -74,6 +74,14 @@ footer{
     font-size: 15px;
     margin-top: 50px;
 }
+
+.img-debugger {
+    border-style: solid;
+    width: 60%;
+    height: 50%;
+}
+
+  .doggy2{
 .doggy2{
     display: none;
  }
