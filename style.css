@@ -78,6 +78,9 @@ h2 {
 .ogTypes{
     list-style-type: none;
     text-align: center;
+    display: inline-block;
+    border: 3px double #000;
+    padding: 20px;
 }
 .refresh .cool{
     color: white;
@@ -130,14 +133,19 @@ footer{
     }
  }
 
+ @media only screen and (max-width: 700px){
+     .meta-charset, .meta-content, .meta-name, .meta-refresh{
+         display: none;
+     }
+ }
 
- TILL MATILDA CSS
+ /*TILL MATILDA CSS
  .hej{
     color: black;
 
 
 }
-/*
+
 TILL MATILDA JS
 function mouse(){
     let h1Hej = document.getElementById("hej");
