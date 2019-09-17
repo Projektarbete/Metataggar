@@ -25,3 +25,13 @@ function randomBackground() {
 
 }
 randomBackground();
+
+
+function mouse() {
+    let h1Hej = document.getElementById("mouseover");
+    h1Hej.style.color = "grey";
+}
+function changeBack() {
+    let h1Mouseover = document.getElementById("mouseover");
+    h1Mouseover.style.color = "black";
+}
