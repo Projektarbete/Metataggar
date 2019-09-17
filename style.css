@@ -31,6 +31,13 @@ h2 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.meta-name{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .og {
     background-color: #b6cae9;
     text-align: center;
@@ -43,7 +50,6 @@ h2 {
 .refresh .cool{
     color: white;
     margin-top: 25px;
-    font-size: 6vw;
 }
 .refresh .cool2{
     color: white;
@@ -81,7 +87,6 @@ footer{
     height: 50%;
 }
 
-  .doggy2{
 .doggy2{
     display: none;
  }
