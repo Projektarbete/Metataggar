@@ -27,70 +27,56 @@
                 <li class="nav-item">
                     <a class="nav-link" href="opengraph.html">Open Graph</a>
                 </li>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="refresh.html">Refresh</a>
                 </li>
-
-
             </ul>
         </div>
     </nav>
     <!-- Ovan, Navbar from Bootstrap -->
-
-    <h1 id="mouseover" onmouseover="mouse()" onmouseout="changeBack()">
-        Artikel utan rätt OG-taggar</h1>
-
-    <div>
-        <div class="card">
-            <div class="card-body">
-                <h2>Vi vill visa en artikel-länk UTAN metataggen OG</h2>
-            </div>
-
-            <figure>
-                <img src="images/genomstruken.jpg" width="70%" alt="Genomstruken OG-tagg" />
-                <figcaption class="figcaption">
-                    En bild kan säga mer än tusen ord. Dock kan en bild säga helt fel saker. Bilden
-                    nedan visar en överstuken OG-tagg. En, i vår mening, väldigt relevant bild till en artikel som
-                    handlar om en länk som saknar OG-taggar.Vi hittade en jättefin bild på en hund som vi väldigt gärna
-                    ville ha med på vår sida. Vi vet ju att den egentligen inte har något med själva artikel att göra
-                    och det förstår
-                    man ju när man läser själva artikel! Även om man förstår att hunden inte har något med artikel att
-                    göra, så kan det vara många hundälskare som kan känna sig lurade om de ser denna artikel i sitt
-                    facebookflöde - klickar sin
-                    in på länken - men ser en artikel som inte alls har med hundar att göra.</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/opdog.jpg" width="70%" alt="Hund" />
-                <figcaption> Klicka på Dela för att se en oskyldig hund representera en artikel om OG-taggar.
-                </figcaption>
-            </figure>
-            <div class="fb-share-button" data-href="https://projektarbete.github.io/Metataggar/article2.html"
-                data-layout="button_count" data-size="small"><a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-                    class="fb-xfbml-parse-ignore">Dela</a>
-            </div> <br>
-
-        </div>
+    <div class="content">
+        <h1>Artikel utan rätt OG-taggar</h1>
+        <p>En bild kan säga mer än tusen ord. Dock kan en bild säga helt fel saker. Bilden
+            nedan visar en överstuken OG-tagg. En, i vår mening, väldigt relevant bild till en artikel som
+            handlar om en länk som saknar OG-taggar.</p>
+        <img class="strikethrough" src="images/genomstruken.jpg" alt="Genomstruken OG-tagg" />
     </div>
 
-    </div>
+    <figcaption class="figcaption">Vi hittade en jättefin bild på en hund som vi väldigt gärna ville ha
+        med på vår
+        sida. Vi vet ju att den egentligen inte har något med själva artikel att göra och det förstår
+        man ju
+        när man läser själva artikel! Även om man förstår att hunden inte har något med artikel att
+        göra, så
+        kan det vara många
+        hundälskare som kan känna sig lurade om de ser denna artikel i sitt facebookflöde - klickar sin
+        in
+        på länken - men ser en artikel som inte alls har med hundar att göra.</figcaption>
 
-    <footer>&#128105 Made by Emmy & Matilda &#128105</footer>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v4.0"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="script2.js"></script>
+    <figure>
+        <img class="og-dog" src="images/ogdog.jpg" alt="Genomstruken OG-tagg" />
+        <figcaption> Klicka på Dela för att se en oskyldig hund representera en artikel om OG-taggar.
+        </figcaption>
+        </figur>
+
+        <div class="fb-share-button" data-href="https://projektarbete.github.io/Metataggar/article2.html"
+            data-layout="button_count" data-size="small"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">Dela</a></div>
+        <div id="fb-root"></div>
+        <footer>&#128105; Made by Emmy & Matilda &#128105;</footer>
+        <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v4.0"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="script2.js"></script>
 </body>
 
 </html>
