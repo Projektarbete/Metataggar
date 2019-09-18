@@ -43,37 +43,25 @@
         </div>
     </nav>
     <!-- Ovan, Navbar from Bootstrap -->
-
-    <h1 id="mouseover" onmouseover="mouse()" onmouseout="changeBack()">
-        OG-artikel med rätt taggar</h1>
-
-    <div class="card-group">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="card-title">Vi vill visa en artikel-länk MED metataggen OG</h2>
-                <p class="card-text"> Nedan ser du en fin bild på en hund. Denna hund har tekniskt sett inget med
-                    OG-taggar att göra överhuvudtaget. Eller iallafall vad vi vet. Who knows? Men förhoppningvis inte.
-                    <br> <br> <img src="images/opdog.jpg" class="img-artiklar"> <br> <br>
-                    Därför vill vi inte, när vi länkar denna artikel på
-                    till exempel Facebook (för självklart kommer det vara tusentals människor som vill dela denna
-                    artikel med sina nära och kära) att en bild på en hund ska visas som länkbild. Vi har av denna
-                    anledning lagt in metataggen Open Graph (OG) i
-                    head på denna sidas HTML. En mer relevant bild är då möjligtvis en bild på en OG-tagg. <br> <br>
-                    <img src="images/ogtaggar.jpg" class="img-artiklar"> <br> <br>
-                    Klicka på Dela för att se hur detta visar sig i länkdelningsrutan på Facebook. <br> <br>
-                    <div class="fb-share-button" data-href="https://projektarbete.github.io/Metataggar/article1.html"
-                        data-layout="button_count" data-size="small"><a target="_blank"
-                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-                            class="fb-xfbml-parse-ignore">Dela</a></div>
-                </p>
-
-            </div>
-        </div>
-
+    <div class="content">
+        <h1 id="mouseover" onmouseover="mouse()" onmouseout="changeBack()">
+            Artikel med rätt OG-taggar</h1>
+        <p>Nedan ser du en fin bild på en hund. Denna hund har tekniskt sett inget med
+            OG-taggar att göra överhuvudtaget. Eller iallafall vad vi vet. Who knows? Men förhoppningvis inte..</p>
+        <img class="og-dog" src="images/ogdog.jpg" alt="dog" />
+        <p>Därför vill vi inte, när vi länkar denna artikel på
+            till exempel Facebook (för självklart kommer det vara tusentals människor som vill dela denna
+            artikel med sina nära och kära) att en bild på en hund ska visas som länkbild. Vi har av denna
+            anledning lagt in metataggen Open Graph (OG) i
+            head på denna sidas HTML. En mer relevant bild är då möjligtvis en bild på en OG-tagg.</p>
+        <img class="head-og" src="images/ogtaggar.jpg" alt="Head with OG" />
+        <p> Klicka på Dela för att se hur detta visar sig i länkdelningsrutan på Facebook.</p>
+        <div class="fb-share-button" data-href="https://projektarbete.github.io/Metataggar/article2.html"
+            data-layout="button_count" data-size="small"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">Dela</a></div>
     </div>
-
     <footer>&#128105; Made by Emmy & Matilda &#128105;</footer>
-    <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v4.0"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
