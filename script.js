@@ -1,6 +1,6 @@
 function randomBackground() {
-    var randomNumber = Math.floor(Math.random() * 5) + 1;
-    var color = "#FFF";
+    let randomNumber = Math.floor(Math.random() * 5) + 1;
+    let color = "#FFF";
 
     switch (randomNumber) {
         case 1:
