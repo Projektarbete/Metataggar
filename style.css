@@ -155,30 +155,25 @@ strong{
     margin-right: auto;
     max-width: 100%;
 }
-
 footer{
     text-align: center;
     font-size: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 .doggy2{
     display: none;
- }
- 
+}
  @media only screen and (max-width: 700px){ 
     .doggy{
       display: none;
     }
- 
     .doggy2{
       display: block;
     }
- }
-
+}
  @media only screen and (max-width: 700px){
      .meta-charset, .meta-content, .meta-name, .meta-refresh{
          display: none;
-     }
- }
+    }
+}
