@@ -1,17 +1,15 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-h1 {
+h1{
     font-size: 60px;
     text-align: center;
     color: black;
 }
-
-.mouseover {
+.mouseover{
     color: black;
 }
-
-h2 {
+h2{
     font-size: 20px;
     color: black;
     text-align: center;
