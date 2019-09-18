@@ -124,6 +124,13 @@ footer{
     width: 60%;
     height: 50%;
 }
+
+/*.figcaption {
+    width: 900px;
+    margin-right: 0px;
+    margin-left: 160px;
+}*/
+
 .doggy2{
     display: none;
  }
