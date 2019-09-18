@@ -81,6 +81,12 @@ strong{
     background-color: #b6cae9;
     text-align: center;
 }
+
+.og-article {
+    background-color: #FFF4BD;
+    text-align: center;
+}
+
 .ogTypes{
     list-style-type: none;
     text-align: center;
