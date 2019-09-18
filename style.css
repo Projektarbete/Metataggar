@@ -86,9 +86,10 @@ h2{
     padding: 20px;
 }
 .content{
-    text-align: center;
+    display: inline-block;
+    justify-content: center;
     max-width: 900px;
-    align-items: center;
+
 }
 .og-dog{
     display: block;
